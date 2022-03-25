@@ -39,16 +39,24 @@ body{
 .circle button{
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     height: 100px;
     background: transparent;
     border: 0;
     font-size: 26px;
     color: #fff;
+    /* background-color: rgb(255, 255, 255); */
+    width: auto;
+    height: auto;
 }
 .circle button:focus{
     outline: none;
+}
+.circle button:hover{
+    border: 1px solid white;
+    border-radius: 10%;
+    
 }
 .circle button#open{
     left: 60%;
@@ -57,6 +65,7 @@ body{
 .circle button#close{
     font-weight: bolder;
     top: 60%;
+    left: 35%;
     transform: rotate(90deg);
     transform-origin: top left;
 }
